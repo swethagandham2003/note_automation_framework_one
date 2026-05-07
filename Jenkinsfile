@@ -11,13 +11,13 @@ pipeline {
 
         stage('Run Pytest') {
             steps {
-                bat 'pytest -v --html=report.html --self-contained-html'
+                bat 'python -m pytest -v --html=report.html --self-contained-html'
             }
         }
 
         stage('Generate Allure Results') {
             steps {
-                bat 'pytest --alluredir=allure-results'
+                bat 'python -m pytest --alluredir=allure-results'
             }
         }
 

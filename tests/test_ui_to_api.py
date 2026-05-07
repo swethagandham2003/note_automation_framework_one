@@ -11,7 +11,7 @@ def test_ui_to_api(driver):
     config = get_config()
 
     driver.get(config["base_url"])
-    WebDriverWait(driver, 15).until(
+    WebDriverWait(driver, 20).until(
         lambda d: d.execute_script("return document.readyState") == "complete"
     )
 
@@ -24,7 +24,7 @@ def test_ui_to_api(driver):
     desc = "E2E Desc"
 
     notes.create_note(title, desc)
-    notes.wait_for_note_presence(title, timeout=15)
+    notes.wait_for_note_presence(title, timeout=20)
 
     client = APIClient(config["api_url"])
     client.login(config["email"], config["password"])

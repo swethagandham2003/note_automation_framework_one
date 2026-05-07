@@ -1,0 +1,4 @@
+2026-05-08 01:39:08,552 - INFO - tests.test_mcp_invalid_login - Application opened
+2026-05-08 01:39:08,637 - INFO - tests.test_mcp_invalid_login - Using invalid email: scdnwn@gmail.com
+2026-05-08 01:39:41,969 - INFO - tests.test_mcp_invalid_login - Login attempted with invalid credentials
+2026-05-08 01:39:42,001 - INFO - tests.test_mcp_invalid_login - Invalid login test passed

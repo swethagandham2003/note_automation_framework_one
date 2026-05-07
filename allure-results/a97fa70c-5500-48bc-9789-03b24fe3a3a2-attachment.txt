@@ -1,0 +1,4 @@
+2026-05-08 02:06:05,832 - INFO - tests.test_mcp_invalid_login - Application opened
+2026-05-08 02:06:05,847 - INFO - tests.test_mcp_invalid_login - Using invalid email: gnlnrn@gmail.com
+2026-05-08 02:06:16,064 - INFO - tests.test_mcp_invalid_login - Login attempted with invalid credentials
+2026-05-08 02:06:16,125 - INFO - tests.test_mcp_invalid_login - Invalid login test passed

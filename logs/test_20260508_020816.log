@@ -1,0 +1,4 @@
+2026-05-08 02:10:11,611 - INFO - tests.test_mcp_invalid_login - Application opened
+2026-05-08 02:10:11,622 - INFO - tests.test_mcp_invalid_login - Using invalid email: fbafts@gmail.com
+2026-05-08 02:10:16,140 - INFO - tests.test_mcp_invalid_login - Login attempted with invalid credentials
+2026-05-08 02:10:16,152 - INFO - tests.test_mcp_invalid_login - Invalid login test passed

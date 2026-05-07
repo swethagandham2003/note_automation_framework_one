@@ -1,0 +1,4 @@
+2026-05-08 01:02:25,846 - INFO - tests.test_mcp_invalid_login - Application opened
+2026-05-08 01:02:25,868 - INFO - tests.test_mcp_invalid_login - Using invalid email: ckwbvx@gmail.com
+2026-05-08 01:02:29,363 - INFO - tests.test_mcp_invalid_login - Login attempted with invalid credentials
+2026-05-08 01:02:29,393 - INFO - tests.test_mcp_invalid_login - Invalid login test passed

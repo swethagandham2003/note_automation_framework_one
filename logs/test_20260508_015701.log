@@ -1,0 +1,4 @@
+2026-05-08 01:58:59,421 - INFO - tests.test_mcp_invalid_login - Application opened
+2026-05-08 01:59:05,459 - INFO - tests.test_mcp_invalid_login - Using invalid email: irrcrk@gmail.com
+2026-05-08 01:59:11,242 - INFO - tests.test_mcp_invalid_login - Login attempted with invalid credentials
+2026-05-08 01:59:11,266 - INFO - tests.test_mcp_invalid_login - Invalid login test passed

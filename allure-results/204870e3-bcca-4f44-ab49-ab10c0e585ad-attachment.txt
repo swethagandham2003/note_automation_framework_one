@@ -1,0 +1,121 @@
+| Title | Description | Category | Completed | Created At |
+|-------|-------------|----------|-----------|------------|
+| API E2E 1778172683 | Created through API | Home | No | 2026-05-07T16:51:29.872Z |
+| API E2E 1778172229 | Created through API | Home | No | 2026-05-07T16:44:06.593Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T16:42:46.674Z |
+| UI Test | UI Description | Home | No | 2026-05-07T16:41:07.952Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T16:18:21.885Z |
+| UI Test | UI Description | Home | No | 2026-05-07T16:17:55.298Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T16:10:18.462Z |
+| UI Test | UI Description | Home | No | 2026-05-07T16:09:17.226Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T15:57:59.354Z |
+| UI Test | UI Description | Home | No | 2026-05-07T15:57:34.895Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T15:54:39.863Z |
+| UI Test | UI Description | Home | No | 2026-05-07T15:54:13.721Z |
+| API E2E 1778169022 | Created through API | Home | No | 2026-05-07T15:50:29.160Z |
+| API E2E 1778168851 | Created through API | Home | No | 2026-05-07T15:47:35.709Z |
+| API E2E 1778168253 | Created through API | Home | No | 2026-05-07T15:37:35.790Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T15:35:53.550Z |
+| UI Test | UI Description | Home | No | 2026-05-07T15:34:37.950Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T15:31:48.260Z |
+| UI Test | UI Description | Home | No | 2026-05-07T15:31:22.005Z |
+| API E2E 1778167535 | Created through API | Home | No | 2026-05-07T15:25:35.402Z |
+| API E2E 1778167046 | Created through API | Home | No | 2026-05-07T15:17:26.340Z |
+| API E2E 1778166599 | Created through API | Home | No | 2026-05-07T15:09:59.240Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T14:28:59.539Z |
+| API E2E 1778163780 | Created through API | Home | No | 2026-05-07T14:23:00.048Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T14:22:02.111Z |
+| UI Test | UI Description | Home | No | 2026-05-07T14:20:20.675Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T14:14:15.632Z |
+| UI Test | UI Description | Home | No | 2026-05-07T14:12:05.728Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T14:08:11.322Z |
+| UI Test | UI Description | Home | No | 2026-05-07T14:06:47.471Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T13:58:14.914Z |
+| UI Test | UI Description | Home | No | 2026-05-07T13:56:05.551Z |
+| API E2E 1778161849 | Created through API | Home | No | 2026-05-07T13:50:49.738Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T13:46:02.781Z |
+| UI Test | UI Description | Home | No | 2026-05-07T13:45:32.671Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T13:38:17.314Z |
+| UI Test | UI Description | Home | No | 2026-05-07T13:36:45.793Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T13:28:15.231Z |
+| UI Test | UI Description | Home | No | 2026-05-07T13:27:36.993Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T13:24:25.957Z |
+| UI Test | UI Description | Home | No | 2026-05-07T13:21:53.153Z |
+| API E2E 1778158431 | Created through API | Home | No | 2026-05-07T12:54:03.393Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T12:48:05.711Z |
+| UI Test | UI Description | Home | No | 2026-05-07T12:47:23.473Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T12:42:48.271Z |
+| API E2E 1778157158 | Created through API | Home | No | 2026-05-07T12:32:39.647Z |
+| UI Test | UI Description | Home | No | 2026-05-07T12:32:00.996Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T12:10:35.054Z |
+| UI Test | UI Description | Home | No | 2026-05-07T12:09:58.617Z |
+| UI Test | UI Description | Home | No | 2026-05-07T12:06:05.994Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T10:12:34.269Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T10:12:00.669Z |
+| UI Test | UI Description | Home | No | 2026-05-07T10:11:05.394Z |
+| UI Test | UI Description | Home | No | 2026-05-07T10:10:08.435Z |
+| API E2E 1778147391 | Created through API | Home | No | 2026-05-07T09:50:20.752Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T09:12:07.949Z |
+| UI Test | UI Description | Home | No | 2026-05-07T09:11:34.755Z |
+| API E2E 1778144971 | Created through API | Home | No | 2026-05-07T09:09:35.872Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T09:06:40.594Z |
+| UI Test | UI Description | Home | No | 2026-05-07T09:05:48.590Z |
+| API E2E 1778144591 | Created through API | Home | No | 2026-05-07T09:03:12.350Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T09:02:07.474Z |
+| UI Test | UI Description | Home | No | 2026-05-07T09:01:56.990Z |
+| API E2E 1778144308 | Created through API | Home | No | 2026-05-07T08:58:31.074Z |
+| UI Test | UI Description | Home | No | 2026-05-07T08:56:26.829Z |
+| API E2E 1778144056 | Created through API | Home | No | 2026-05-07T08:54:18.191Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T08:45:27.476Z |
+| API E2E 1778143348 | Created through API | Home | No | 2026-05-07T08:42:30.918Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T08:15:01.310Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T07:44:11.478Z |
+| UI Test | UI Description | Home | No | 2026-05-07T07:43:47.004Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-07T07:33:25.610Z |
+| UI Test | UI Description | Home | No | 2026-05-07T07:32:27.879Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-07T05:15:44.962Z |
+| UI Validation Note | Verifying note creation functionality | Home | No | 2026-05-07T05:15:19.779Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T17:25:25.994Z |
+| API E2E 1778088271 | Created through API | Home | No | 2026-05-06T17:24:31.616Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T17:24:03.556Z |
+| UI Validation Note | Verifying note creation functionality | Home | No | 2026-05-06T17:23:49.730Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T17:21:18.782Z |
+| UI Validation Note | Verifying note creation functionality | Home | No | 2026-05-06T17:20:39.060Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T17:17:59.919Z |
+| UI Validation Note | Verifying note creation functionality | Home | No | 2026-05-06T17:17:14.712Z |
+| API E2E 1778087682 | Created through API | Home | No | 2026-05-06T17:14:43.294Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T17:07:20.265Z |
+| UI Validation Note | Verifying note creation functionality | Home | No | 2026-05-06T17:06:55.573Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T17:04:54.681Z |
+| UI Validation Note | Verifying note creation functionality | Home | No | 2026-05-06T17:03:21.018Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T16:54:00.677Z |
+| UI Validation Note | Verifying note creation functionality | Home | No | 2026-05-06T16:53:12.626Z |
+| API E2E 1778085149 | Created through API | Home | No | 2026-05-06T16:32:32.703Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T16:22:59.444Z |
+| UI Validation Note | Verifying note creation functionality | Home | No | 2026-05-06T16:22:12.003Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T16:16:42.838Z |
+| UI Validation Note | Verifying note creation functionality | Home | No | 2026-05-06T16:14:46.109Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T16:10:42.417Z |
+| UI Validation Note | Verifying note creation functionality | Home | No | 2026-05-06T16:10:15.993Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T16:06:05.239Z |
+| UI Validation Note | Verifying note creation functionality | Home | No | 2026-05-06T16:04:49.724Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T15:55:49.216Z |
+| UI Validation Note | Verifying note creation functionality | Home | No | 2026-05-06T15:54:57.899Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T15:50:57.145Z |
+| UI Validation Note | Verifying note creation functionality | Home | No | 2026-05-06T15:50:32.489Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T15:47:52.674Z |
+| UI Validation Note | Verifying note creation functionality | Home | No | 2026-05-06T15:47:18.426Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T15:41:11.605Z |
+| UI Test | UI Description | Home | No | 2026-05-06T15:40:45.987Z |
+| E2E Validation Note | E2E Verifying end-to-end functionality | Home | No | 2026-05-06T15:37:31.703Z |
+| UI Test | UI Description | Home | No | 2026-05-06T15:37:08.300Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-06T15:25:58.532Z |
+| UI Test | UI Description | Home | No | 2026-05-06T15:25:25.659Z |
+| E2E Title | E2E Desc | Home | No | 2026-05-06T15:21:46.236Z |
+| UI Test | UI Description | Home | No | 2026-05-06T15:20:15.346Z |
+| Calling to parents | Everyday calling to parents at 8:00PM | Personal | Yes | 2026-05-05T17:39:12.643Z |
+| Project work | Completing manual testing part from the project of section1 and API automation from section 2. | Work | Yes | 2026-05-05T17:58:50.716Z |
+| Reading Story books | I want to start reading story books regularly. Even if it’s just a little every day, it will help me relax and enjoy some time. I will try to make it a daily habit, especially in the evening or before going to sleep. | Personal | No | 2026-05-05T17:54:28.071Z |
+| Grocery Shopping | Going to DMART to buy grocery items like vegetables, fruits, utensils etc... Need to go grocery shopping for this week. I should buy basics like milk, bread, and eggs, and also checking the prices of rice bags or cooking oil. I will pick fresh vegetables like tomatoes, onions, and potatoes, and maybe a few fruits like bananas and apples. Also need to see if we need things like sugar, salt, or any spices. Try to choose good quality items and not overspend. Don’t forget to carry bags and double-check everything before leaving the store. | Home | No | 2026-05-05T17:24:56.762Z |
+| House cleaning | Kitchen cleaning, Bedroom cleaning, Organizing tables | Home | Yes | 2026-05-05T17:05:35.380Z |
+| Gardening | Cutting waste plants, Watering the plants | Home | No | 2026-05-05T17:27:11.003Z |

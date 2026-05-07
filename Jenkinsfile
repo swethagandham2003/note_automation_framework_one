@@ -3,37 +3,27 @@ pipeline {
 
     stages {
 
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/swethagandham2003/note_automation_framework.git'
-            }
-        }
-
         stage('Install Dependencies') {
             steps {
-        git branch: 'main',
-        url: 'https://github.com/swethagandham2003/note_automation_framework.git'
+                bat 'pip install -r requirements.txt'
+            }
         }
 
         stage('Run Pytest') {
             steps {
-                bat 'pytest tests/ --html=report.html --self-contained-html'
+                bat 'pytest -v --html=report.html --self-contained-html'
             }
         }
 
         stage('Generate Allure Results') {
             steps {
-                bat 'pytest tests/ --alluredir=allure-results'
+                bat 'pytest --alluredir=allure-results'
             }
         }
 
         stage('Generate Allure Report') {
             steps {
-                allure([
-                    includeProperties: false,
-                    jdk: '',
-                    results: [[path: 'allure-results']]
-                ])
+                bat 'allure generate allure-results -o allure-report --clean'
             }
         }
     }
@@ -41,19 +31,18 @@ pipeline {
     post {
 
         always {
-
             publishHTML([
-                allowMissing: false,
-                alwaysLinkToLastBuild: true,
-                keepAll: true,
                 reportDir: '.',
                 reportFiles: 'report.html',
-                reportName: 'Pytest HTML Report'
+                reportName: 'Pytest HTML Report',
+                keepAll: true,
+                allowMissing: true,
+                alwaysLinkToLastBuild: true
             ])
         }
 
         success {
-            echo 'CI/CD Pipeline Executed Successfully'
+            echo 'Pipeline Success'
         }
 
         failure {

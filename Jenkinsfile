@@ -11,9 +11,8 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                bat 'python -m pip install --upgrade pip'
-                bat 'pip install -r requirements.txt'
-            }
+        git branch: 'main',
+        url: 'https://github.com/swethagandham2003/note_automation_framework.git'
         }
 
         stage('Run Pytest') {

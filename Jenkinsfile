@@ -1,33 +1,86 @@
 pipeline {
     agent any
 
+    parameters {
+        choice(
+            name: 'RUN_MODE',
+            choices: ['local', 'grid'],
+            description: 'Run tests locally or on Selenium Grid'
+        )
+    }
+
+    environment {
+        VENV_DIR = "venv"
+    }
+
     stages {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/swethagandham2003/note_automation_framework_one.git'
+                git branch: 'main',
+                    url: 'https://github.com/swethagandham2003/note_automation_framework_one.git'
+            }
+        }
+
+        stage('Clean Old Docker Containers') {
+            when {
+                expression { params.RUN_MODE == 'grid' }
+            }
+            steps {
+                bat """
+                echo Cleaning old Selenium containers...
+                docker-compose down --remove-orphans || exit 0
+                docker rm -f selenium-hub || exit 0
+                docker network prune -f || exit 0
+                """
+            }
+        }
+
+        stage('Start Selenium Grid') {
+            when {
+                expression { params.RUN_MODE == 'grid' }
+            }
+            steps {
+                bat """
+                docker-compose up -d --force-recreate
+                """
+            }
+        }
+
+        stage('Setup Python Environment') {
+            steps {
+                bat """
+                if not exist %VENV_DIR% (
+                    python -m venv %VENV_DIR%
+                )
+
+                %VENV_DIR%\\Scripts\\python -m pip install --upgrade pip
+                """
             }
         }
 
         stage('Install Dependencies') {
             steps {
-                bat 'pip install -r requirements.txt'
+                bat """
+                %VENV_DIR%\\Scripts\\pip install -r requirements.txt
+                """
             }
         }
 
-        stage('Run Pytest with Allure') {
+        stage('Run Automation Tests') {
             steps {
-                bat 'python -m pytest -v --html=report.html --self-contained-html --alluredir=allure-results'
+                bat """
+                set RUN_MODE=%RUN_MODE%
+                %VENV_DIR%\\Scripts\\pytest -n 2 --alluredir=allure-results
+                """
             }
         }
 
-        stage('Publish Allure Report') {
+        stage('Generate Allure Report') {
             steps {
-                allure([
-                    includeProperties: false,
-                    jdk: '',
-                    results: [[path: 'allure-results']]
-                ])
+                bat """
+                allure generate allure-results --clean -o allure-report
+                """
             }
         }
     }
@@ -35,23 +88,23 @@ pipeline {
     post {
 
         always {
+            archiveArtifacts artifacts: 'allure-report/**', fingerprint: true
 
-            publishHTML([
-                reportDir: '.',
-                reportFiles: 'report.html',
-                reportName: 'Pytest HTML Report',
-                keepAll: true,
-                allowMissing: true,
-                alwaysLinkToLastBuild: true
-            ])
+            allure includeProperties: false,
+                   jdk: '',
+                   results: [[path: 'allure-results']]
+
+            bat """
+            docker-compose down --remove-orphans || exit 0
+            """
         }
 
         success {
-            echo 'Pipeline Success'
+            echo "✅ Pipeline executed successfully"
         }
 
         failure {
-            echo 'Pipeline Failed'
+            echo "❌ Pipeline failed — check logs above"
         }
     }
 }

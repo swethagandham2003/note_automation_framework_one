@@ -1,0 +1,4 @@
+2026-05-08 06:06:05,163 - INFO - tests.test_mcp_invalid_login - Application opened
+2026-05-08 06:06:05,173 - INFO - tests.test_mcp_invalid_login - Using invalid email: bfqpuc@gmail.com
+2026-05-08 06:06:08,372 - INFO - tests.test_mcp_invalid_login - Login attempted with invalid credentials
+2026-05-08 06:06:08,394 - INFO - tests.test_mcp_invalid_login - Invalid login test passed

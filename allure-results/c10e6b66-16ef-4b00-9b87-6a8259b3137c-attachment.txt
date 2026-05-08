@@ -1,0 +1,4 @@
+2026-05-08 06:01:21,578 - INFO - tests.test_mcp_invalid_login - Application opened
+2026-05-08 06:01:21,593 - INFO - tests.test_mcp_invalid_login - Using invalid email: jemfud@gmail.com
+2026-05-08 06:01:26,535 - INFO - tests.test_mcp_invalid_login - Login attempted with invalid credentials
+2026-05-08 06:01:26,555 - INFO - tests.test_mcp_invalid_login - Invalid login test passed

@@ -1,0 +1,4 @@
+[32mINFO    [0m tests.test_mcp_invalid_login:test_mcp_invalid_login.py:19 Application opened
+[32mINFO    [0m tests.test_mcp_invalid_login:test_mcp_invalid_login.py:31 Using invalid email: bfqpuc@gmail.com
+[32mINFO    [0m tests.test_mcp_invalid_login:test_mcp_invalid_login.py:36 Login attempted with invalid credentials
+[32mINFO    [0m tests.test_mcp_invalid_login:test_mcp_invalid_login.py:45 Invalid login test passed

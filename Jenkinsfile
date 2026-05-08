@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        allure 'Allure'
-    }
-
     stages {
 
         stage('Checkout Code') {
@@ -27,11 +23,11 @@ pipeline {
 
         stage('Publish Allure Report') {
             steps {
-                allure(
+                allure([
                     includeProperties: false,
                     jdk: '',
                     results: [[path: 'allure-results']]
-                )
+                ])
             }
         }
     }
@@ -48,8 +44,6 @@ pipeline {
                 allowMissing: true,
                 alwaysLinkToLastBuild: true
             ])
-
-            archiveArtifacts artifacts: 'allure-results/**', fingerprint: true
         }
 
         success {

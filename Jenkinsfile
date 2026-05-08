@@ -23,16 +23,16 @@ pipeline {
         }
 
         stage('Clean Old Docker Containers') {
-            when {
-                expression { params.RUN_MODE == 'grid' }
-            }
-            steps {
-                bat """
-                echo Cleaning old Selenium containers...
-                docker-compose down --remove-orphans || exit 0
-                docker rm -f selenium-hub || exit 0
-                docker network prune -f || exit 0
-                """
+    steps {
+        bat '''
+        echo Cleaning old Selenium containers...
+
+        docker-compose down --remove-orphans || exit 0
+
+        docker rm -f selenium-hub chrome-node-1 chrome-node-2 chrome-node-3 || exit 0
+
+        docker network prune -f || exit 0
+        '''
             }
         }
 

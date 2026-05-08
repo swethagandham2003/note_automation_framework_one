@@ -1,0 +1,4 @@
+2026-05-08 10:02:48,739 - INFO - tests.test_mcp_invalid_login - Application opened
+2026-05-08 10:02:48,754 - INFO - tests.test_mcp_invalid_login - Using invalid email: ygakof@gmail.com
+2026-05-08 10:02:51,155 - INFO - tests.test_mcp_invalid_login - Login attempted with invalid credentials
+2026-05-08 10:02:51,174 - INFO - tests.test_mcp_invalid_login - Invalid login test passed

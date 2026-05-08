@@ -1,0 +1,4 @@
+2026-05-08 10:05:27,270 - INFO - tests.test_mcp_invalid_login - Application opened
+2026-05-08 10:05:27,300 - INFO - tests.test_mcp_invalid_login - Using invalid email: sovkjt@gmail.com
+2026-05-08 10:05:31,298 - INFO - tests.test_mcp_invalid_login - Login attempted with invalid credentials
+2026-05-08 10:05:31,331 - INFO - tests.test_mcp_invalid_login - Invalid login test passed

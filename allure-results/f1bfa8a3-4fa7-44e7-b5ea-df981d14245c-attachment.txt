@@ -1,0 +1,2 @@
+LOGIN: {"success":true,"status":200,"message":"Login successful","data":{"id":"69fa0bd881124e02985a7c2a","name":"GANDHAM SWETHA","email":"swethagandham2003@gmail.com","token":"94800a8abbf646229f8bc5e1a5018e5eed9571ad1bb2467f8ec12224c45af246"}}
+CREATE NOTE: {"success":false,"status":405,"message":"Maximum note limit exceeded, You are only allowed to create 200 notes"}

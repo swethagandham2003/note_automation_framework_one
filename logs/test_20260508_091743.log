@@ -1,0 +1,4 @@
+2026-05-08 09:19:20,500 - INFO - tests.test_mcp_invalid_login - Application opened
+2026-05-08 09:19:24,084 - INFO - tests.test_mcp_invalid_login - Using invalid email: qgbhzw@gmail.com
+2026-05-08 09:19:26,607 - INFO - tests.test_mcp_invalid_login - Login attempted with invalid credentials
+2026-05-08 09:19:26,624 - INFO - tests.test_mcp_invalid_login - Invalid login test passed

@@ -1,7 +1,17 @@
 pipeline {
     agent any
 
+    tools {
+        allure 'Allure'
+    }
+
     stages {
+
+        stage('Checkout Code') {
+            steps {
+                git 'https://github.com/swethagandham2003/note_automation_framework_one.git'
+            }
+        }
 
         stage('Install Dependencies') {
             steps {
@@ -9,21 +19,19 @@ pipeline {
             }
         }
 
-        stage('Run Pytest') {
+        stage('Run Pytest with Allure') {
             steps {
-                bat 'python -m pytest -v --html=report.html --self-contained-html'
+                bat 'python -m pytest -v --html=report.html --self-contained-html --alluredir=allure-results'
             }
         }
 
-        stage('Generate Allure Results') {
+        stage('Publish Allure Report') {
             steps {
-                bat 'python -m pytest --alluredir=allure-results'
-            }
-        }
-
-        stage('Generate Allure Report') {
-            steps {
-                bat 'allure generate allure-results -o allure-report --clean'
+                allure(
+                    includeProperties: false,
+                    jdk: '',
+                    results: [[path: 'allure-results']]
+                )
             }
         }
     }
@@ -31,6 +39,7 @@ pipeline {
     post {
 
         always {
+
             publishHTML([
                 reportDir: '.',
                 reportFiles: 'report.html',
@@ -39,6 +48,8 @@ pipeline {
                 allowMissing: true,
                 alwaysLinkToLastBuild: true
             ])
+
+            archiveArtifacts artifacts: 'allure-results/**', fingerprint: true
         }
 
         success {
